@@ -46,7 +46,7 @@ const App = () => {
 
   useEffect(() => {
     getLeagueAPI(
-      "http://ddragon.leagueoflegends.com/cdn/13.11.1/data/en_US/champion.json"
+      "https://ddragon.leagueoflegends.com/cdn/13.11.1/data/en_US/champion.json"
     );
     autoAssign();
   }, []);
