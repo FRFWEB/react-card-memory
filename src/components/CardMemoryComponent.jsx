@@ -38,8 +38,8 @@ const CardMemory = ({ championName = null }) => {
               );
               console.log(allCards);
               allCards[0].classList.remove("memory-card-item__select");
-            }, 2500);
-          }, 3000);
+            }, 1200);
+          }, 1500);
         }
       }
     }

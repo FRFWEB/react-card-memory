@@ -48,6 +48,7 @@ const App = () => {
     getLeagueAPI(
       "https://ddragon.leagueoflegends.com/cdn/13.11.1/data/en_US/champion.json"
     );
+    sessionStorage.removeItem("cards");
     autoAssign();
   }, []);
 
