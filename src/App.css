@@ -174,22 +174,28 @@ body {
 
 @media only screen and (max-width: 480px) and (min-width: 300px) {
   .memory-card-item .memory-card-item__image {
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
   }
   .memory-card-item__default-front h3 {
     font-size: 20px;
     text-align: center;
+  }
+  .grid-row {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (max-width: 660px) and (min-width: 481px) {
   .memory-card-item .memory-card-item__image {
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
   }
   .memory-card-item__default-front h3 {
     font-size: 20px;
     text-align: center;
+  }
+  .grid-row {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (max-width: 840px) and (min-width: 661px) {
