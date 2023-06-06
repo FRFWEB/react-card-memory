@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const App = () => {
   const [champion, setChampions] = useState([]);
-  const [randCards, setAssingValues] = useState([]);
+  const [randCards, setCardsRandValues] = useState([]);
   const numberChampionRand = (maxLength) => {
     let count = 3;
     let numbers = [];
@@ -24,10 +24,10 @@ const App = () => {
     return array;
   };
 
-  const autoAssign = (arrayValues) => {
+  const autoAssign = () => {
     let assign = [0, 1, 2, 2, 1, 0];
     let values = shuffleArray(assign);
-    setAssingValues(values);
+    setCardsRandValues(values);
   };
 
   const getLeagueAPI = async (URL) => {
